@@ -1,0 +1,205 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: Arial, sans-serif;background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.resume-container 
+{
+    display: flex;
+    max-width: 800px;
+    background-color: #fff;
+
+    
+}
+
+
+.left-section 
+{
+   background-color: #0f0530;
+   color: #fff;
+   width: 35%;
+   height: 100%;
+   padding: 20px;
+   box-sizing: border-box;
+   display: flex;
+   flex-direction: column;
+   border-right: 2px solid #ddd;
+}
+
+
+.left-section div
+{
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #fff;
+}
+
+
+
+.profile-image img
+{
+    width: 100%;
+    height: 150px;
+    border-radius: 0%;
+    object-fit: cover;
+    border-bottom: none;
+}
+
+.profile-image {
+    border-bottom: none;
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: left;
+    border-top: 1px solid #fff;
+    padding-top: 10px;
+}
+
+.contact-info h3 {
+   padding-bottom: 20px;
+}
+
+
+.about-me h3 {
+    display: flex;
+    align-items: center;
+    padding-left: 0px; 
+}
+
+.about-me p, .contact-info p, .reference p {
+    margin-top: 10px;
+    font-size: small;
+}
+
+.reference h3 {
+    padding-bottom: 20px;
+}
+
+
+.left-section div:last-child {
+    border-bottom: none; 
+}
+
+
+.left-section h3,
+.right-section h3 {
+    display: flex;
+    align-items: center;
+}
+
+#contact-heading::after,
+#about-heading::after {
+    content: "";
+    flex-grow: 1;
+    height: 2px; 
+    background-color: #fff;
+}
+
+.right-section h3::after, .left-section h3::after {
+    content: "";
+    flex-grow: 1;
+    height: 2px; 
+    background-color: #01153e ;
+    margin-left: 20px;
+}
+
+
+.right-section
+{
+    padding: 20px;
+    width: 80s0%;
+}
+
+
+
+
+.right-section h1
+{
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.right-section h2 {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+    border-bottom: 2px #2b3e50;
+    padding-bottom: 10px;
+}
+
+.right-section section {
+    margin-bottom: 30px;
+}
+
+.right-section p {
+    font-size: smaller;
+    font-family: ;
+}
+
+.right-section h3
+{
+    color: #2b3e50;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+
+
+.experience, .education, s.kills
+{
+    margin-bottom: 20px;
+}
+
+
+.job, .school 
+{
+    margin-bottom: 10px;
+} 
+
+.job-title p, .school p {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.date {
+    color: #666;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+ul li {
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #333;
+}
+
+
+.skills .skill-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    font-size: 14px;
+    color: #666;
+}
+
+
+.skills p::before {
+
+}
